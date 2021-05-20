@@ -26,7 +26,10 @@ n_max = 2.1 + 24000/(MTOW_pon + 10000)
 if (n_max > 3.8):
     n_max = 3.8
 
-else:
+elif (n_max < 2.5):
+    n_max = 2.5
+
+else :
     n_max = n_max
 
     print("Nilai maksimum load factor adalah ", n_max)
