@@ -82,13 +82,13 @@ def gust(h):
     n_gustd2 = 1-k_g*v_gd(h)*Vgd*a*p*S/(2*m*g)
 
     n_gustc1_max = 1+k_g*v_gc(h)*V_C*a*p*S/(2*m*g)
-    print ('Pada ketinggian ', h , ' Nilai n maksimum saat VC = ',n_gustc1_max)
+    print ('Pada ketinggian ', h , ' Nilai n maksimum saat VC yaitu n = ',n_gustc1_max)
     n_gustc2_min = 1-k_g*v_gc(h)*V_C*a*p*S/(2*m*g)
-    print ('Pada ketinggian ', h , ' Nilai n minimum saat VC = ',n_gustc2_min)
+    print ('Pada ketinggian ', h , ' Nilai n minimum saat VC yaitu n = ',n_gustc2_min)
     n_gustd1_max = 1+k_g*v_gd(h)*V_D*a*p*S/(2*m*g)
-    print ('Pada ketinggian ', h , ' Nilai n maksimum saat VD = ',n_gustd1_max)
+    print ('Pada ketinggian ', h , ' Nilai n maksimum saat VD yaitu n = ',n_gustd1_max)
     n_gustd2_min = 1-k_g*v_gd(h)*V_D*a*p*S/(2*m*g) 
-    print ('Pada ketinggian ', h , ' Nilai n minimum saat VD = ',n_gustd2_min)
+    print ('Pada ketinggian ', h , ' Nilai n minimum saat VD yaitu n = ',n_gustd2_min)
 
     #Gust maximum intensity
     V_B = V_s1 * (1+k_g*v_gc(h)*V_C*a/(498*m*g))**0.5
