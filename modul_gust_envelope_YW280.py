@@ -5,7 +5,9 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+
 reg = int(input("Masukkan aturan regulasi yang anda pilih , 1 untuk FAR 25 dan 2 untuk FAR 23 : " ))
+#INPUT LINE
 m= 27365.6  #MTOW (kg)
 p0 = 1.225 #air density sea level
 p1 = 0.549 #air density at 25000 ft
@@ -17,7 +19,8 @@ V_C_ms = 149.189  # Cruise Velocity (m/s)
 V_C = V_C_ms*1.298 # Cruise Velocity (KEAS)
 V_s1_ms = 56.893 # Stall Velocity (m/s)
 V_s1 = V_s1_ms*1.298 # Stall Velocity (KEAS)
-V_D= 1.25*V_C
+V_D= 1.25*V_C 
+###########
 
 plot1 = plt.figure(1)
 if(reg== 1):
