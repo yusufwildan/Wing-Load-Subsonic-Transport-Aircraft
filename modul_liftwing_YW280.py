@@ -15,7 +15,7 @@ for i in range (0,k):
     print("##########################")
 
 def titik(n,V):
-    
+    #INPUT LINE
     m = 27365.6 #Airplane mass (kg)
     W= m*9.81 #Airplane weight(N)
     po = 1.225 #density sea level1
@@ -33,7 +33,7 @@ def titik(n,V):
     lw = (CG_mac-25)/100*c # distance Lw to CG (m)
     lt = 30.366+0.25*1.863-CG_pos # 30.366 is the distance of HTP leading edge from MAC ,distance Lt to CG (m)
     K = W*0.0 #W sin teta assumption
-
+    ##########
     Lt = [0 for i in range (11)]
     Lw = [0 for i in range (11)]
     CD = [0 for i in range (11)]
