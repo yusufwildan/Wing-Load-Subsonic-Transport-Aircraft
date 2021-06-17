@@ -5,7 +5,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 reg = int(input("Masukkan aturan regulasi yang anda pilih , 1 untuk FAR 25 dan 2 untuk FAR 23 : "))
-#Input
+
+#INPUT LINE
 MTOW = 27365.6 # Maximum Takeoff Weight (kg)
 MTOW_pon = MTOW*2.205 #MTOW (pound)
 V_s1_ms = 56.893 # Stall Velocity (m/s)
@@ -19,6 +20,7 @@ c = 2.43  #MAC (m)
 a = 4.3    #Cl gradient
 S =  67.527  #lift surface area
 g = 9.81 # gravity (m/s^2)
+##########
 
 #Maximum Load Factor
 n_min = -1
