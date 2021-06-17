@@ -24,7 +24,6 @@ Pw = Pm * 9.81 #Propulsion weight (N)
 P_x = -1.421 #distance CG trust to x (LEMAC wing)
 P_y = 0  #distance CG trust to y
 P_z = 1.47 #distance CG trust to z
-
 ##########
 h= int(input('Masukkan elemen partisi : '))
 
