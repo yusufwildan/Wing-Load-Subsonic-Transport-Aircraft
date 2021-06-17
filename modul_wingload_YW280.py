@@ -8,6 +8,7 @@ from scipy.optimize import curve_fit
 from numpy import arange
 from matplotlib import pyplot
 
+#INPUT LINE
 ct = 1.45 # tipchord wing (m)
 cr = 2.80 #rootchord wing (m)
 frospar = 0.25 # chord position of frontspar
@@ -24,6 +25,7 @@ P_x = -1.421 #distance CG trust to x (LEMAC wing)
 P_y = 0  #distance CG trust to y
 P_z = 1.47 #distance CG trust to z
 qCl = L/S
+##########
 h= int(input('Masukkan elemen partisi : '))
 
 x_in = np.linspace (0.0,b/2,100)
